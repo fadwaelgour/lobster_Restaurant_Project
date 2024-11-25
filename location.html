@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location - Red Lobster</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes slide {
+            0% { background-image: url('slide1.jpg'); }
+            33% { background-image: url('slide2.jpg'); }
+            66% { background-image: url('slide3.jpg'); }
+            100% { background-image: url('slide1.jpg'); }
+        }
+
+        body {
+            animation: slide 15s infinite;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    <img src="logo.png" alt="Red Lobster Logo" style="width: 50px; vertical-align: middle;">
+    Red Lobster Restaurant
+</div>
+
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="details.html">Details</a>
+    <a href="contact_us.html">Contact Us</a>
+    <a href="location.html">Location</a>
+</div>
+
+<div class="content">
+    <h1>Our Location</h1>
+    <p>Come visit us at our main location:</p>
+    <p><strong>Address:</strong> 123 Seafood Avenue, Ocean City, Coastal State, 12345</p>
+
+    <div style="width: 100%; margin: 20px auto;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345096875!2d144.96315791531683!3d-37.81627937975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5774e74f9f4d4c7!2s123%20Seafood%20Avenue%2C%20Ocean%20City%2C%20Coastal%20State%2012345!5e0!3m2!1sen!2s!4v1695410104825!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <p>We look forward to serving you fresh, delicious seafood!</p>
+</div>
+
+<footer>
+    &copy; 2024 COMP213 Individual Project - Student Name: Fadwar. Images sourced from free online resources.
+</footer>
+
+</body>
+</html>

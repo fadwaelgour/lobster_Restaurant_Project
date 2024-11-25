@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Red Lobster</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes slide {
+            0% { background-image: url('slide1.jpg'); }
+            33% { background-image: url('slide2.jpg'); }
+            66% { background-image: url('slide3.jpg'); }
+            100% { background-image: url('slide1.jpg'); }
+        }
+
+        body {
+            animation: slide 15s infinite;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #ff4500;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    <img src="logo.png" alt="Red Lobster Logo" style="width: 50px; vertical-align: middle;">
+    Red Lobster Restaurant
+</div>
+
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="details.html">Details</a>
+    <a href="contact_us.html">Contact Us</a>
+    <a href="location.html">Location</a>
+</div>
+
+<div class="content">
+    <h1>Our Menu</h1>
+    <p>Explore our variety of mouthwatering dishes, crafted to perfection:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Dish</th>
+                <th>Price</th>
+                <th>Ingredients</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Appetizers</td>
+                <td>Garlic Shrimp Scampi</td>
+                <td>$12.99</td>
+                <td>Shrimp, garlic, butter, lemon, parsley</td>
+            </tr>
+            <tr>
+                <td>Main Course</td>
+                <td>Grilled Lobster Tail</td>
+                <td>$24.99</td>
+                <td>Lobster tail, garlic butter, herbs</td>
+            </tr>
+            <tr>
+                <td>Desserts</td>
+                <td>Chocolate Lava Cake</td>
+                <td>$8.99</td>
+                <td>Chocolate, flour, sugar, butter, eggs</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    &copy; 2024 COMP213 Individual Project - Student Name: Fadwar. Images sourced from free online resources.
+</footer>
+
+</body>
+</html>
